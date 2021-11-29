@@ -3,7 +3,7 @@ to: <%= absPath %>/index.test.tsx
 ---
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import <%= component_name %> from './index.tsx';
+import <%= component_name %> from './index';
 
 test('renders component successfully', () => {
   render(<<%= component_name %>  />);
